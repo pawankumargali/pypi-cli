@@ -1,0 +1,22 @@
+{
+  "name": "pypi-cli",
+  "version": "1.0.0",
+  "description": "Cli to install all python packages specifed in json file(mimic npm install)",
+  "main":"bin/cli.js",
+  "preferGlobal": true,
+  "bin": {
+    "pypi-cli": "bin/cli.js"
+  },
+  "author": "pawankumargali",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "ora": "^4.0.3",
+    "yargs": "^15.3.1"
+  }
+}
