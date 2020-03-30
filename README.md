@@ -1,21 +1,14 @@
 ## pypi-cli v1.0.0
 
-CLI tool to download and install dependencies for python project from input json file
-
-  
-  
+CLI tool to download and install dependencies for python project from input json file<br>
 
 ### Usage: `node cli [command] --path [JSON_file_path]`
-
-  
 
 #### [command] : <br>
 
 `install (alias i)` : 
  *  install python package dependencies mentioned in input 'dependencies.json' file <br>
-* If no command is specified displays help on command usage
-
-  
+* If no command is specified displays help on command usage<br>
 
 #### Options: <br>
 
@@ -23,7 +16,7 @@ CLI tool to download and install dependencies for python project from input json
 
 If path isn't specified, defaults to '.input/dependencies.json <br>
 
-`-h`: displays help on command usage
+`-h`: displays help on command usage<br>
 
   
 ### Input
@@ -35,3 +28,6 @@ If --path arg is not specified, the default location is set to `'./input/depende
 ### Output in terminal
 In case all dependencies are successfully installed print success<br>
 If some have failed, then prints list of all failed packages, one of each in separate line.<br>
+
+### Example
+![sample-output](https://i.ibb.co/yyTP3vR/cli.png)
