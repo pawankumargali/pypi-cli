@@ -1,6 +1,5 @@
 {  
-    "Dependencies" : {
-        "AlgebraOnMatrix": "0.0.0", 
+    "Dependencies" : { 
         "beautifulsoup4":"4.4.1", 
         "boto":"2.48.0", 
         "bz2file":"0.98", 

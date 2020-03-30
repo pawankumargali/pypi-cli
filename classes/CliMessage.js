@@ -13,7 +13,7 @@ class CliMessage {
         //  start spinner
         this.terminalSpinner.start();
         // show package list to be installed
-        console.log('\nInstalling packages\n')
+        console.log('\n'+this.chalk.yellow('Installing packages')+'\n')
         console.log(this.chalk.magenta(packages)+'\n');
     }
 
